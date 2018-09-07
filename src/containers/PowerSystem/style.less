@@ -1,0 +1,56 @@
+:global {
+  .ellipsis {
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.Modal {
+  font-size: 18px;
+  > div {
+    > div {
+      > button:first-child {
+        display: none;
+      }
+    }
+  }
+}
+.form {
+  max-width: 300px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.bodyStyle {
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: scroll;
+}
+.reason {
+  margin: 20px 0;
+  span {
+    width: 90px;
+  }
+  display: flex;
+  justify-content: space-between;
+}
+.number {
+  display: flex;
+  justify-content: space-between;
+  span:nth-child(1) {
+    width: 90px;
+  }
+  span:nth-child(2) {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.listTitle {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}

@@ -1,0 +1,58 @@
+.selectPeopleWrap{
+  display: flex;
+}
+.selectPeopleWrap >div{
+  width: 50%;
+  max-height: 400px;
+  min-height: 250px;
+  overflow-x: scroll;
+  background: rgba(250,250,250,1);
+}
+.selectPeopleWrap >div:nth-child(1) {
+  border-right: 1px solid #e9e9e9;
+}
+.selectPeople {
+  p{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 4px;
+  }
+}
+
+.Modal{
+  >div{
+    >div{
+      >button:first-child{
+        display: none;
+      }
+    }
+  }
+}
+.bodyStyle{
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: scroll;
+}
+.auditSpan{
+  display: inline-block;
+  width: 75px;
+}
+.reason{
+  margin: 20px 0;
+  span{
+    width: 90px;
+  }
+  display: flex;
+  justify-content: space-between;
+}
+.number{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  span:nth-child(2) {
+    flex: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+}

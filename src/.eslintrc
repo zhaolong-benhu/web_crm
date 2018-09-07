@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "react-app"
+  ],
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "jsx-quotes": [2, "prefer-double"],
+    "space-before-function-paren": [2, "never"],
+    "jsx-a11y/alt-text": 0
+  }
+}

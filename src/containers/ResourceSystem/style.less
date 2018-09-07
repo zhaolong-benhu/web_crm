@@ -1,0 +1,107 @@
+.listTitle{
+  background: #f0f0f0;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.listTop{
+  margin: 10px auto;
+  min-width: 700px;
+  overflow: hidden;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 25px;
+  .formGroup{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    >label{
+      font-size: 14px;
+      color: #666666;
+    }
+  }
+}
+.table{
+  border-top:1px solid rgba(228, 228, 228, 1);
+  tr th,tr td{
+    text-align: center;
+    border-bottom:1px solid rgba(228, 228, 228, 1);
+  }
+}
+
+.number{
+  // display: flex;
+  height: 30px;
+  // justify-content: space-between;
+  height:100%;
+  span:nth-child(1) {
+    width: 60px;
+  }
+  span:nth-child(2) {
+    flex: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.modalContainer{
+    width: 770px;
+    max-height: 770px;
+    overflow: auto;
+    .company,.person{
+      display: flex;
+      .line{
+        .radiogroup{
+            display: flex;
+        }
+        .showKye{
+          display: 'block';
+        }
+        .radio{
+            width: 290px;
+            right: 100px;
+            position: absolute;
+        }
+        .hideKey{
+          display: none;
+        }
+        li{
+          height: 50px;
+          line-height: 50px;
+          display: flex;
+        }
+        .label{
+          height: 30px;
+          line-height: 30px;
+        }
+        .itemWidth {
+          width: 340px;
+        }
+        .input{
+          width: 220px;
+          height:30px;
+          line-height: 30px;
+        }
+        .rad{
+          width:50px;
+          height: 30px;
+          background: red;
+        }
+      }
+    }
+}

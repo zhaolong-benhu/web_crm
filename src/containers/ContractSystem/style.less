@@ -1,0 +1,84 @@
+.ClueSystemWrap{
+  min-width: 880px;
+  overflow: hidden;
+}
+.listTitle{
+  background: #f0f0f0;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.listTop{
+  margin: 10px auto;
+  min-width: 700px;
+  overflow: hidden;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 25px;
+  .formGroup{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    >label{
+      font-size: 14px;
+      color: #666666;
+    }
+  }
+}
+.table{
+  border-top: 1px solid #e4e4e4;
+  tr th,tr td{
+    text-align: center;
+    border-bottom:1px solid rgba(228, 228, 228, 1);
+  }
+}
+.Modal{
+  font-size: 18px;
+  >div{
+    >div{
+      >button:first-child{
+        display: none;
+      }
+    }
+  }
+}
+.bodyStyle{
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: scroll;
+}
+.reason{
+  margin: 20px 0;
+  span{
+    width: 90px;
+  }
+  display: flex;
+  justify-content: space-between;
+}
+.number{
+  display: flex;
+  justify-content: space-between;
+  span:nth-child(1) {
+    width: 90px;
+  }
+  span:nth-child(2) {
+    flex: 1;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+}

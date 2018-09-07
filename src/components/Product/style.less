@@ -1,0 +1,160 @@
+.productInfo{
+        width:100%;
+        position: relative;
+        .clientDescribe{
+            display: flex;
+            width: 100%;
+            .label{
+                float: left;
+                width: 180px;
+                text-align: right;
+            }
+            .table{
+                width: 100%;
+                // height: 100px;
+                background: #fff;
+                .header,.body{
+                    width: 100%;
+                    height: 50px;
+                    line-height: 50px;
+                    display: flex;
+                    background: #ececec;
+                    .columns,.columns2,.columns3,.columns4,.columns5{
+                        width: 15%;
+                        text-align: center;
+                        // border: 1px solid #ececec;
+                        border-left: 1px solid #ececec;
+                        border-bottom: 1px solid #ececec;
+                        .select{
+                            width: 80%;
+                            margin-left: 10%;
+                        }
+                        .dataPicker{
+                            width: 80%;
+                            margin-left: 10%;
+                        }
+                        .delete,.look{
+                            color:#1ABC9C;
+                            padding-right: 5px;
+                            cursor: pointer;
+                        }
+                        .money{
+                            width: 90%;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            border:  1px solid #d9d9d9;
+                            // border-color: #d9d9d9;
+                        }
+                    }
+                    .columns2{
+                        border-right:  1px solid #ececec;
+                    }
+                    .columns3{
+                        width: 10%;
+                    }
+                    .columns4{
+                        width: 21.5%;
+                        border-right: 1px solid #ececec;
+                    }
+                    .columns5{
+                        width: 25.5%;
+                        border-right: 1px solid #ececec;
+                    }
+                    
+                }
+                .body{
+                    height: 45px;
+                    background: #fff;
+                }
+            }
+            .textarea{
+                width: 760px;
+            }
+            .productTable2{
+                width: 760px;
+            }
+            .productTable{
+                width: 760px;
+                height: 40px;
+                background: #f9fafc;
+                .tableHead{
+                    width: 100%;
+                    height: 40px;
+                    line-height: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    font-size: 14px;
+                    color: #666666;
+                    .line,.operate{
+                        width: 33.33%;
+                        text-align: center;
+                        border-left: 1px solid #d8d2d2;
+                        border-bottom: 1px solid #d8d2d2;
+                        border-top: 1px solid #d8d2d2;
+                        font-weight: 700;
+                    }
+                    .operate{
+                        border-right: 1px solid #d8d2d2;
+                    }
+                }
+                .table{
+                    width: 100%;
+                    .list{
+                        width: 100%;
+                        height: 40px;
+                        line-height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        font-size: 14px;
+                        color: #666666;
+                        .column1,.operate{
+                            width: 33.33%;
+                            text-align: center;
+                            border-left: 1px solid #d8d2d2;
+                            border-bottom: 1px solid #d8d2d2;
+                        }
+                        .operate{
+                            color:#1ABC9C;;
+                            cursor: pointer;
+                            border-right: 1px solid #d8d2d2;
+                        }
+                        .delete{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+        .btns{
+            position: absolute;
+            top: -57px;
+            right: 22px;
+            width: 100px;
+            height: 60px;
+        }
+        .button{
+            margin-left: 20px;
+            width: 100px;
+            height: 25px;
+            margin-bottom: 2px;
+        }
+    }
+    .productList{
+        width: 475px;
+        max-height: 600px;
+        overflow: scroll;
+        text-align: center;
+        font-size: 16px;
+        line-height: 40px;
+        color: #000;
+        padding-bottom: 20px;
+        .productName{
+            font-size: 14px;
+            line-height: 35px;
+            height: 35px;
+        }
+    }
